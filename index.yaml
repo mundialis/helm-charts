@@ -2,8 +2,22 @@ apiVersion: v1
 entries:
   actinia:
   - apiVersion: v2
+    appVersion: 1.0.2.79
+    created: "2021-07-07T14:56:09.818244414+02:00"
+    dependencies:
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: "12"
+    description: A Helm chart for actinia
+    digest: eff9d6409d8e1e7690da40eef82757ddb86237d5ec3197faaa150fa002547f86
+    name: actinia
+    type: application
+    urls:
+    - https://mundialis.github.io/helm-charts/actinia-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
     appVersion: 1.0.1.79
-    created: "2021-07-01T15:46:06.491452297+02:00"
+    created: "2021-07-07T14:56:09.805931119+02:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -17,7 +31,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.1.79
-    created: "2021-07-01T15:46:06.484522463+02:00"
+    created: "2021-07-07T14:56:09.799610728+02:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -31,7 +45,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.99.18
-    created: "2021-07-01T15:46:06.480019977+02:00"
+    created: "2021-07-07T14:56:09.790624551+02:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -45,7 +59,7 @@ entries:
     version: 0.0.9
   - apiVersion: v2
     appVersion: 0.99.18
-    created: "2021-07-01T15:46:06.475057165+02:00"
+    created: "2021-07-07T14:56:09.779534743+02:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -59,7 +73,7 @@ entries:
     version: 0.0.8
   - apiVersion: v2
     appVersion: 0.99.18
-    created: "2021-07-01T15:46:06.471276982+02:00"
+    created: "2021-07-07T14:56:09.773530665+02:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -73,7 +87,7 @@ entries:
     version: 0.0.6
   - apiVersion: v2
     appVersion: 0.99.18
-    created: "2021-07-01T15:46:06.460965063+02:00"
+    created: "2021-07-07T14:56:09.761676649+02:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -87,7 +101,7 @@ entries:
     version: 0.0.5
   - apiVersion: v2
     appVersion: 0.99.18
-    created: "2021-07-01T15:46:06.456884211+02:00"
+    created: "2021-07-07T14:56:09.755516125+02:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -101,7 +115,7 @@ entries:
     version: 0.0.4
   - apiVersion: v2
     appVersion: 0.99.18
-    created: "2021-07-01T15:46:06.449369034+02:00"
+    created: "2021-07-07T14:56:09.746647142+02:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -115,7 +129,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 0.99.18
-    created: "2021-07-01T15:46:06.440428526+02:00"
+    created: "2021-07-07T14:56:09.736454241+02:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -130,7 +144,7 @@ entries:
   openeo-grassgis-driver:
   - apiVersion: v2
     appVersion: 2.0.7
-    created: "2021-07-01T15:46:06.499312354+02:00"
+    created: "2021-07-07T14:56:09.822814712+02:00"
     description: A Helm chart for openeo-grassgis-driver
     digest: 283b832a551ec90875e1a92d8f07252c0ffbfcef9948370137b354124137d54a
     name: openeo-grassgis-driver
@@ -140,7 +154,7 @@ entries:
     version: 0.2.8
   - apiVersion: v2
     appVersion: 2.0.6
-    created: "2021-07-01T15:46:06.497876408+02:00"
+    created: "2021-07-07T14:56:09.822282449+02:00"
     description: A Helm chart for openeo-grassgis-driver
     digest: 7c387ee335e690a31a379f8a576d4372a1ef4a63844a9ad3954d7bcbf9311c2e
     name: openeo-grassgis-driver
@@ -150,7 +164,7 @@ entries:
     version: 0.2.7
   - apiVersion: v2
     appVersion: 2.0.5
-    created: "2021-07-01T15:46:06.496921323+02:00"
+    created: "2021-07-07T14:56:09.821668122+02:00"
     description: A Helm chart for openeo-grassgis-driver
     digest: 6fbf850a7512849745186edcebe5cc45b5e470b2f5ee2d9d839fa47c52c293af
     name: openeo-grassgis-driver
@@ -160,7 +174,7 @@ entries:
     version: 0.2.6
   - apiVersion: v2
     appVersion: 2.0.3
-    created: "2021-07-01T15:46:06.495912878+02:00"
+    created: "2021-07-07T14:56:09.821138163+02:00"
     description: A Helm chart for openeo-grassgis-driver
     digest: 50152bd24fc16830c451ffd159a245b457a204612bd9261cc390aa20ba68f935
     name: openeo-grassgis-driver
@@ -170,7 +184,7 @@ entries:
     version: 0.2.5
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2021-07-01T15:46:06.494885995+02:00"
+    created: "2021-07-07T14:56:09.820456648+02:00"
     description: A Helm chart for openeo-grassgis-driver
     digest: 255c5030ca00478333a3af6fca7ac32a2142ab684c88baa5851a46970f8f0900
     name: openeo-grassgis-driver
@@ -180,7 +194,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2021-07-01T15:46:06.493616343+02:00"
+    created: "2021-07-07T14:56:09.819709203+02:00"
     description: A Helm chart for openeo-grassgis-driver
     digest: 4b00409292a575e23473b36510661efb297f8418895fbf0b5132946a21dcbf2f
     name: openeo-grassgis-driver
@@ -190,7 +204,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2021-07-01T15:46:06.492529326+02:00"
+    created: "2021-07-07T14:56:09.81900038+02:00"
     description: A Helm chart for openeo-grassgis-driver
     digest: 3522d64f11da4b4c89afe2f36405bb0dbb9897108fe126c8eeb0752e30c004d9
     name: openeo-grassgis-driver
@@ -198,4 +212,4 @@ entries:
     urls:
     - https://mundialis.github.io/helm-charts/openeo-grassgis-driver-0.1.0.tgz
     version: 0.1.0
-generated: "2021-07-01T15:46:06.431848053+02:00"
+generated: "2021-07-07T14:56:09.726796955+02:00"
