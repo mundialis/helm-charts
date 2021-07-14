@@ -1,0 +1,29 @@
+persistence:
+  enabled: true
+  useExistingClaim: true
+  claimName: dbdumps
+  grassdb:
+    subPath: grassdb-subpath
+    # accessMode: ReadWriteMany
+    # storageClassName: default
+    # storageSize: 10Gi
+  userdata:
+    subPath: userdata-subpath
+    # accessMode: ReadWriteMany
+    # storageClassName: default
+    # storageSize: 10Gi
+  resources:
+    subPath: resources-subpath
+    # accessMode: ReadWriteMany
+    # storageClassName: default
+    # storageSize: 10Gi
+  geodata:
+    subPath: geodata-subpath
+    # accessMode: ReadWriteMany
+    # storageClassName: default
+    # storageSize: 10Gi
+  # volume config for statefulset volumeclaimtemplates
+  actiniaWorkerWorkspace:
+    accessMode: ReadWriteOnce
+    storageClassName: nfs-msx4
+    storageSize: 50Gi
